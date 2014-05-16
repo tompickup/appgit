@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.wsbh" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Woking & Sam Beare Hospice</name>
+    <description>
+       An app for Woking & Sam Beare Hospices showing information about the charity.
+    </description>
+    <author email="tom_pickup@hotmail.co.uk" href="http://www.tompickup.edsite.co.uk">
+        Tom Pickup
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
