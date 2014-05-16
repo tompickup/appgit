@@ -39,7 +39,7 @@
         
     <gap:splash src="splash.png" /> <!-- default 320x480 pixels -->
         
-    <gap:splash src="img/splash/ios/splash320x480.png" gap:platform="ios" width="320" height="480" /> <!-- iPhone & iPod Touch non retina -->
+    <gap:splash src="img/icons/ios/splash320x480.png" gap:platform="ios" width="320" height="480" /> <!-- iPhone & iPod Touch non retina -->
     <gap:splash src="img/splash/ios/splash320x480.png" gap:platform="ios" width="640" height="960" /> <!-- iPhone & iPod Touch retina 4- -->
     <gap:splash src="img/splash/ios/splash320x480.png" gap:platform="ios" width="640" height="1136" /> <!-- iPhone & iPod Touch retina 5+ -->
     <gap:splash src="img/splash/ios/splash320x480.png" gap:platform="ios" width="1024" height="768" /> <!-- iPad non retina -->
