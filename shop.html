@@ -1,10 +1,95 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
 <title>Untitled Document</title>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.sidr.dark.css" rel="stylesheet" type="text/css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.sidr.min.js"></script>
+-->
+
 </head>
 
 <body>
-</body>
+ 
+   
+<div class="container">
+	<div class="header">
+ 		<a id="simple-menu" href="#sidr"><i class="fa fa-th-list fa-2x"></i></a>
+       
+    		<div class="title">
+        		Shop
+			</div>
+    </div> 
+
+    	<div class="content">
+        <h1>Coming soon..</h1>
+        
+
+<p><br><br>This feature is yet to be implemented, stay tuned!<br><br></p>
+
+<div id="linkboxholder">
+
+<div class="linkboxp"><a href="shop.html">shop</a></div>
+<div class="linkboxy"><a href="donate.html">donate</a></div>
+<div class="linkboxp"><a href="lottery.html">lottery</a></div>
+<div class="linkboxy"><a href="events.html">events</a></div>
+
+</div>
+
+<div class="footer"><p><b>Woking Hospice</b>
+Hill View Road, Woking, Surrey, GU22 7HW<br>
+Tel: 01483 881750<br>
+<br>
+<b>Registered Charity</b> No: 1082798<br>
+<br>
+<b>Company limited by guarantee:</b> 3955487<br>
+<br>
+
+<br>
+<b>Sam Beare Hospice</b><br>
+22 Church Street, Weybridge, Surrey, KT13 8DY<br>
+Tel: 01932 826095<br>
+<br>
+<b>Registered Charity No: 1115439</b><br>
+<br>
+<b>Company limited by guarantee:</b> 5822985</p></div><br>
+
+        </div>
+<div id="sidr">        
+  <!-- Your content -->
+  <ul>
+  <li><br></li>
+  	<li><button type="button" onclick="$.sidr('close', 'sidr');">Close</button></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="joinus.html">Join Us</a></li>
+    <li><a href="findus.html">Find Us</a></li>
+    <li class="active"><a href="shop.html">Shop</a></li>
+    <li><a href="donate.html">Donate</a></li>
+    <li><a href="lottery.html">Lottery</a></li>
+    <li><a href="events.html">Events</a></li>
+  </ul>
+  
+</div>
+
+
+</div>
+
+    <!-- Your stuff -->
+ 
+    <!-- Include jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Include the Sidr JS -->
+    <script src="js/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#simple-menu').sidr();
+});
+</script>
+  </body>
 </html>
