@@ -91,6 +91,8 @@
     <preference name="load-url-timeout" value="20000" />
         
     <!-- PHONEGAP API FEATURES PREFERENCES -->
+	<gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+	<preference name="StatusBarOverlaysWebView" value="false" />
         
     <preference name="permissions" value="none"/>
     <!--
