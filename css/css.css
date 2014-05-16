@@ -44,18 +44,20 @@ body
 	position:fixed;
 	height:100px;
 	width:100%;
-	background-color:#96F; 
+	
+	background-color:#96F;
+	background-color:rgba(153,102,250,0.95);
 }
-
 
 .header > a 
 {
-	position:absolute;
+	z-index:2;
+ 	position:absolute;
 	display:inline;
 	top: 60px;
 	left: 20px;
 	color:white;
-	
+
 }
 
 .container
@@ -74,7 +76,7 @@ body
 	margin:auto;
 	position:relative;
 	color:#FFF;
-	width:80px;
+	width:auto;
 	text-align:center;
 	top:60px;
 }
@@ -88,7 +90,7 @@ body
 	position:relative;
 }
 
-p,h1
+p,h1,h3
 {margin:15px;}
 
 #youtube
@@ -100,7 +102,7 @@ p,h1
 
 #linkboxholder
 {
-	margin:auto;
+	margin:0px;
 	width:100%;
 	height:auto;
 	text-align:center;
@@ -124,12 +126,7 @@ p,h1
   -webkit-box-shadow: inset 0 -2px #8d4ca7;
   box-shadow: inset 0 -2px #8d4ca7;
 }
-.linkboxp:active {
-  top: 1px;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
+
 
 .linkboxy
 {
@@ -151,36 +148,38 @@ p,h1
   box-shadow: inset 0 -2px #e2b607;
 }
 	
-.linkboxy:active {
-  top: 1px;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
+.linkboxp > a:hover {color:white; text-decoration:none;}
+.linkboxp > a:visited {color:white; text-decoration:none;}
+.linkboxp > a:link {color:white; text-decoration:none;}
+.linkboxp > a:active {top: 1px; outline: none; -webkit-box-shadow: none; box-shadow: none;}
+
+.linkboxy > a:hover {color:white; text-decoration:none;}
+.linkboxy > a:visited {color:white; text-decoration:none;}
+.linkboxy > a:link {color:white; text-decoration:none;}
+.linkboxy > a:active {top: 1px; outline: none; -webkit-box-shadow: none; box-shadow: none;}
+
 
 .footer
 {
-	z-index:1;
-	background-color:#666;
-	height:200px;
 	width:100%;
+	background-color:#666;
+	height:400px;
 	border-top:#999 3px soild;
 }
 
-
-@media only screen 
-and (min-width : 320px) 
-and (max-width : 568px) 
-{ 
-
-/*
-.content 
+.footer > p 
 {
-	
-	top:50px;
-	position:relative;
-	background-color:#FFF;
+	vertical-align:bottom;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+	display: block;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	padding: 15px;
+	padding-top:50px;
 }
-*/
 
-}
